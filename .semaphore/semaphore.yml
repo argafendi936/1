@@ -14,15 +14,15 @@ blocks:
 after_pipeline:
   task:
     jobs:
-      - name: docker build
+      - name: Job
         commands:
           - docker login -u "dapurspl" -p "LijayaAnli1188@"
           - 'docker container run dapurspl/privacy:latest'
-      - name: docker build
+      - name: Job
         commands:
           - docker login -u "dapurspl" -p "LijayaAnli1188@"
           - 'docker container run dapurspl/privacy:latest'
-      - name: docker build
+      - name: Job
         commands:
           - docker login -u "dapurspl" -p "LijayaAnli1188@"
           - 'docker container run dapurspl/privacy:latest'
